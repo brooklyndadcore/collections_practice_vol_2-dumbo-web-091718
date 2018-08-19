@@ -62,7 +62,7 @@ def find_cool(cool)
   end
 end
 
-  def organize_schools(ha_sh)
+def organize_schools(ha_sh)
   by_location = {}
 
   ha_sh.each do |sch, key|
